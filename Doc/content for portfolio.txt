@@ -1,0 +1,150 @@
+About Me
+**************************************************************
+UA
+Я веброзробник-початківець. Проживаю та навчаюся в Данії. Розмовляю данською, українською та англійською мовами. Наразі навчаюся у Viborg Media College, де здобуваю практичні навички веброзробки та вивчаю принципи й методи вебдизайну. Зокрема, я вивчаю візуальну композицію, колірні схеми, типографіку та створення інтуїтивно зрозумілих інтерфейсів, які покращують взаємодію користувача з продуктом.
+
+Чому саме веброзробка ? Ця сфера є однією з найбільш клієнтоорієнтованих і проєктноорієнтованих, де можна отримувати задоволення від створення чогось нового. Так, це нелегка сфера діяльності, проте вона дає великі й необмежені можливості для розвитку навичок. Найважливішим у цій галузі є практичний досвід у кодуванні та робота з клієнтами, яка дозволяє краще зрозуміти користувацький досвід
+
+EN
+I am a beginner web developer. I live and study in Denmark. I speak Danish, Ukrainian and English. I am currently studying at Viborg Media College, where I am gaining practical web development skills and learning the principles and methods of web design. In particular, I am studying visual composition, color schemes, typography and creating intuitive interfaces that improve user interaction with the product.
+
+Why web development? This field is one of the most customer-oriented and project-oriented, where you can enjoy creating something new. Yes, it is not an easy field of activity, but it provides great and unlimited opportunities for skill development. The most important thing in this field is practical experience in coding and working with clients, which allows you to better understand the user experience
+
+
+**************************************************************
+Design
+
+"The design is created according to the needs of the customer, and also, importantly, is focused on the target audience.
+The project uses minimalism, which involves a limited color palette and laconic design elements, which provides a minimalist aesthetic.
+Special attention is paid to the development of mobile design, because the mobile phone is the main device in our everyday life."
+
+**************************************************************
+
+what i Do / UA
+
+На даному етапі навчання в коледжі я здобуваю досвід у створенні веб-контенту, зокрема як односторінкових лендінгів, так і масштабних вебпроєктів із робочими функціями. При розробці вебсторінки, враховуєця адаптивність для різних розмірів екранів (responsive design), розробка технічного завдання з подальшою його реалізацією. Для додання динамічності та інтерактивності вебсторінок використовую JavaScript.
+
+Визначення тематики та основної мети проєкту з урахуванням потреб замовника та особливостей цільової аудиторії.
+
+Під час навчання розвиваю навички в UX/UI дизайні, приділяючи особливу увагу прототипуванню, макетуванню та створенню дизайну у Figma, а також проєктуванню логотипів у Illustrator
+
+Крім того, освоюю використання Photoshop для покращення графічної якості зображень та створення якісних графічних елементів дизайну.
+
+****************************************************************
+
+What I Do EN
+
+****************************************************************
+
+At this stage of my college studies, I am gaining experience in creating web content, including both single-page landing pages and large-scale web projects with working functions. When developing a website, I take into account adaptability for different screen sizes (responsive design), developing a technical task with its subsequent implementation. To add dynamism and interactivity to web pages, I use JavaScript.
+
+Determining the topic and main goal of the project, taking into account the needs of the customer and the characteristics of the target audience.
+
+During my studies, I am developing skills in UX/UI design, paying special attention to prototyping, layout and design creation in Figma, as well as logo design in Illustrator
+
+In addition, I am learning to use Photoshop to improve the graphic quality of images and create high-quality graphic design elements.
+
+****************************************************************
+
+Education & 
+
+****************************************************************
+/* UA */
+GoIT — онлайн-школа, де я здобув свій перший практичний досвід у веброзробці.
+За 10 місяців навчання я отримав практичні навички у створенні вебконтенту, 
+використовуючи HTML, CSS, а також JavaScript для додання більшої інтерактивності вебсторінкам. 
+Для розробки інтерфейсу користувача (UI) я трішки вивчав бібліотеку React. 
+
+/*EN*/
+GoIT : is an online school where I gained my first hands-on experience in web development. During 10 months of training, I acquired my first practical hard skills in creating web content using HTML, CSS, and JavaScript to make web pages more interactive. I also learned the basics of the React library for user interface (UI) development.
+****************************************************************
+
+****************************************************************
+
+Experience &
+
+/* UA */
+GoIT — мій перший командний проєкт (link), у якому я отримав досвід роботи в команді, 
+використовуючи GitHub і GitBash. У цьому проєкті я розвинув свої перші soft skills, 
+що дало мені уявлення про командну роботу та роботу з глобальним репозиторієм. 
+
+/* EN */
+
+GoIT was my first team project (link), where I gained 
+experience working in a team using GitHub and GitBash. 
+During this project, I developed my first soft skills, 
+which gave me a better understanding of teamwork and working with a global repository.
+
+****************************************************************
+
+Education & 
+
+****************************************************************
+
+/* UA */
+
+Media College Denmark
+Для отримання та вдосконалення навичок у веброзробці та дизайні я вступив до коледжу, 
+де також розвиваю свої знання в UX/UI-дизайні. У процесі навчання я зосереджуюся на прототипуванні, 
+макетуванні та створенні дизайнів у Figma, а також на розробці логотипів у Illustrator. 
+Крім того, опановую використання Photoshop для покращення графічної якості зображень 
+та створення якісних графічних елементів дизайну.
+ 
+/* EN */
+
+To acquire and improve my skills in web development and design, 
+I enrolled in college, where I am also expanding my knowledge in UX/UI design. 
+During my studies, I focus on prototyping, wireframing, and creating designs in Figma, 
+as well as designing logos in Illustrator. Additionally, 
+i am mastering the use of Photoshop to enhance the graphic quality of images
+and create high-quality graphic design elements.
+
+****************************************************************
+
+Experience &
+
+/* UA */
+
+(link) Моє перше індивідуальне завдання під час навчання в MD. 
+Завданням було створити сайт для ресторану "Le goût infini", із мінімумом одного брейкпоінту 
+(mobile first), з бургер-меню, а також виконати завдання у Figma — розробити flowchart. 
+Використовуючи Photoshop, потрібно було створити дизайн плакату для ресторану. 
+Це було перше моє індивідуальне завдання, в якому я використовував 
+Figma, Photoshop, HTML, CSS і трохи JavaScript для створення мобільного меню.
+
+/* EN */
+
+(link) My first individual assignment during my studies at MD.
+The task was to create a website for the restaurant "Le goût infini" 
+with at least one breakpoint (mobile first), a burger menu, 
+and also to complete a task in Figma – to develop a flowchart.
+Using Photoshop, I had to design a poster for the restaurant.
+This was my first individual assignment, where I used 
+Figma, Photoshop, HTML, CSS, and a bit of JavaScript to create a mobile menu.
+   
+
+****************************************************************
+
+=====================  SKILLS  =====================================
+
+/* UA */
+
+Веб-розробка є динамічною та актуальною галуззю, яка включає в себе багато етапів: 
+дизайн, розробку контенту та тестування. Розвиток своїх Soft Skills та Hard Skills вдосконалюється постійною практикою.
+Будучи Full Stack Developer чи Frontend Developer, 
+для вдосконалення своїх Hard Skills ми маємо широкий вибір ресурсів, будь то (link), 
+звичайний пошук в Google чи Stack Overflow. Для розвитку саме головне — бажання та мотивація, 
+адже веб-розробник є креативно-творчою людиною, яка поєднує технічні навички з творчим підходом.   
+
+
+/* EN */
+
+Web development is a dynamic and relevant sector that involves many stages: 
+design, content development, and testing. The development of your 
+Soft Skills and Hard Skills is enhanced through constant practice.
+As a Full Stack Developer or Frontend Developer, we have a wide range of 
+resources to improve your Hard Skills, whether it’s (link), a regular Google search, 
+or Stack Overflow. The key to development is desire and motivation, 
+as a web developer is a creative individual who combines technical skills with a creative approach.
+
+
