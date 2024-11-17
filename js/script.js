@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
 //* Sticky navigation */
 
 const sectionHeroEL = document.querySelector(".section-hero");
@@ -54,8 +53,13 @@ const allLinks = document.querySelectorAll("a");
 
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
-    e.preventDefault();
     const href = link.getAttribute("href");
+    
+    if (href !== "#" && !href.startsWith("#")) {
+      return; // Дозволяє перейти за звичайним посиланням
+    }
+
+    e.preventDefault();
 
     // Scrol back to top
     if (href === "#")
@@ -67,7 +71,7 @@ allLinks.forEach(function (link) {
     // Scroll to other links
     if (href !== "#" && href.startsWith("#")) {
       const sectionEL = document.querySelector(href);
-      console.log(sectionEL);
+      // console.log(sectionEL);
       sectionEL.scrollIntoView({ behavior: "smooth" });
     }
 
