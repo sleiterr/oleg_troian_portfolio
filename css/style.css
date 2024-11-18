@@ -159,8 +159,8 @@ header {
   height: 9rem;
   padding-top: 0;
   padding-bottom: 0;
-  /* background-color: rgba(255, 255, 255, 0.97); */
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-color: rgba(255, 255, 255, 0.90);
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.4);
 }
@@ -355,7 +355,7 @@ header {
   color: #cecece;
   letter-spacing: 0.8px;
   line-height: 1.4em;
-  margin-top: 12px;
+  margin-top: 12px; /* check margin-top with gap about-container*/
   text-align: start;
   text-indent: 25px;
 }
