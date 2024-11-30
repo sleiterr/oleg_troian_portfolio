@@ -310,12 +310,16 @@ header {
 }
 
 .about-container {
+  width: 100%;
+}
+
+/* .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 90px;
   grid-row-gap: 0px;
-}
+} */
 
 .img-container {
 }
@@ -328,7 +332,8 @@ header {
 }
 
 .about-content {
-  max-width: 460px;
+  margin: 0 auto;
+  max-width: 860px;
 }
 
 .about-title {
@@ -337,13 +342,23 @@ header {
   font-size: 72px;
   color: #cecece;
   letter-spacing: 0.2rem;
-  margin-bottom: 26px;
+
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.border {
+  background-color: #fff;
+  padding: 45px 60px;
+  border-radius: 8px;
+  width: 100%;
 }
 
 .about-subtitle {
   font-weight: 400;
   font-size: 18px;
-  color: #cecece;
+  /* color: #cecece; */
+  color: #333;
   letter-spacing: 0.8px;
   line-height: 1.4em;
   text-align: start;
@@ -352,12 +367,13 @@ header {
 .about-development {
   font-weight: 400;
   font-size: 18px;
-  color: #cecece;
+  color: #333;
+  /* color: #cecece; */
   letter-spacing: 0.8px;
   line-height: 1.4em;
-  margin-top: 12px; /* check margin-top with gap about-container*/
+  margin-top: 12px; 
   text-align: start;
-  text-indent: 25px;
+  /* text-indent: 25px; */
 }
 
 /*? MODAL */
@@ -514,7 +530,7 @@ header {
 .experience-title {
   font-family: "Source Code Pro", serif;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 52px;
   color: #cecece;
   letter-spacing: 0.02rem;
   text-align: center;
@@ -789,10 +805,10 @@ header {
   display: flex;
   position: relative;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* object-fit: cover; */
   background-color: #fff;
-  padding: 42px 0;
+  padding: 60px 42px;
   border-radius: 8px;
   border: 2px solid #75cabe;
 }
@@ -805,15 +821,12 @@ header {
 
 .form-title {
   font-family: "Source Code Pro", serif;
-  font-weight: 600;
-  font-size: 260px;
-  color: rgb(206, 206, 206, 0.4);
-  text-shadow: 22px 22px 15px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  font-size: 52px;
+  color: #cecece;
+  letter-spacing: 0.08em;
   text-align: center;
-  letter-spacing: 4px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 42px;
+  margin-bottom: 62px;
 }
 
 /*? FORM */
