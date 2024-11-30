@@ -160,7 +160,7 @@ header {
   padding-top: 0;
   padding-bottom: 0;
   /* background-color: rgba(255, 255, 255, 0.8); */
-  background-color: rgba(255, 255, 255, 0.90);
+  background-color: rgba(255, 255, 255, 0.9);
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.4);
 }
@@ -358,6 +358,14 @@ header {
   margin-top: 12px; /* check margin-top with gap about-container*/
   text-align: start;
   text-indent: 25px;
+}
+
+/*? MODAL */
+
+.is-hidden {
+  opacity: 1;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 /*******************************/
