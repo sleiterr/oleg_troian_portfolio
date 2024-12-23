@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./svg/icons.css" />
     <title>Oleg Troian</title>
   </head>
+
   <body>
     <header class="header">
       <nav class="nav-bar">
@@ -262,13 +263,28 @@
                     class="link"
                     >flowchart</a
                   >. Using Photoshop, I had to design a
-                  <button href="#" class="link" data-modal-open>placat</button>
+                  <a
+                    href="#"
+                    class="link"
+                    id="myLink"
+                    >placat</a
+                  >
                   for the restaurant. This was my first individual assignment,
                   where I used Figma, Photoshop, HTML, CSS, and a bit of
                   JavaScript to create a mobile menu.
                 </p>
               </div>
             </div>
+
+            <!-- Модальне вікно -->
+            <div id="myModal" class="modal">
+              <!-- Контент модального вікна -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modalImage" src="" alt="Image" />
+              </div>
+            </div>
+
             <!--
             <div class="elemt left">
               <div class="education-left">
