@@ -675,8 +675,16 @@ header {
   letter-spacing: 0.8px;
 }
 
+#myLink {
+  font-weight: 600;
+  font-size: 18px;
+  color: #0396e0;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
 .link-experience {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   color: #0396e0;
   letter-spacing: 0.4px;
@@ -686,7 +694,7 @@ header {
 
 /* Модальне вікно (фон) */
 .modal {
-  display: none; 
+  display: none;
   position: fixed;
   z-index: 999;
   left: 0;
@@ -700,26 +708,28 @@ header {
 
 /* Контент модального вікна */
 .modal-content {
-  background-color: #fefefe;
-  margin: 10% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 500px ;
   position: relative;
+  /* background-color: #fefefe; */
+  margin: 60px auto;
+  /* padding: 20px; */
+  width: 500px;
 }
 
 /* Кнопка закриття */
 .close {
-  color: #aaa;
+  position: absolute;
+  right: 10px;
+  top: -15px;
+  color: #d1d1d1;
   float: right;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 60px;
+  font-weight: 200;
   cursor: pointer;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #fff;
   text-decoration: none;
 }
 

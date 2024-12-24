@@ -82,66 +82,25 @@ allLinks.forEach(function (link) {
 });
 
 // MODAL-IMAGE-PLACAT
-
-// const modal = document.querySelector("#modal");
-// const modalImg = document.querySelector("#modal-img");
-
-// const closeModalBtt = document.querySelector(".close");
-// const imageLink = document.querySelectorAll(".link-image");
-
-// function openModal(imageSrc) {
-//   modalImg.src = imageSrc;
-//   modal.style.display = "block";
-// }
-
-// function closemodal() {
-//   modal.style.display = "none";
-//   modalImg.src = "";
-// }
-
-// imageLink.forEach((link) => {
-//   link.addEventListener("click", (e) => {
-//     e.preventDefault();
-//     const imageSrc = link.getAttribute("href");
-//     openModal(imageSrc);
-//   });
-// });
-
-// closeModalBtt.addEventListener("click", () => {
-//   closemodal();
-// });
-
-// window.addEventListener("click", (e) => {
-//   if (e.target === modal) {
-//     closemodal();
-//   }
-// });
-
-// Отримуємо модальне вікно
 const modal = document.getElementById("myModal");
-
-// Отримуємо <a> тег
 const link = document.getElementById("myLink");
-
-// Отримуємо кнопку закриття
 const span = document.getElementsByClassName("close")[0];
-
-// Додаємо зображення для модального вікна
 const modalImage = document.getElementById("modalImage");
 
-// При кліку на <a> відкриваємо модальне вікно і вставляємо зображення
-link.onclick = function (event) {
-  event.preventDefault(); // Забороняємо перехід за посиланням
-  modal.style.display = "block";
-  modalImage.src = "../img/Placat Le goût infini/Le-goût-infini-1.jpg"; // Замініть URL на своє зображення
+modalImage.oncontextmenu = function (e) {
+  e.preventDefault();
 };
 
-// Закриваємо модальне вікно при кліку на "х"
+link.onclick = function (event) {
+  event.preventDefault();
+  modal.style.display = "block";
+  modalImage.src = "../img/Placat Le goût infini/Le-goût-infini-1.jpg";
+};
+
 span.onclick = function () {
   modal.style.display = "none";
 };
 
-// Закриваємо модальне вікно при кліку поза ним
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
