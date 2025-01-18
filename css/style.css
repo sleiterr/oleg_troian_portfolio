@@ -207,8 +207,8 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),
-    url("../img/IMG_3513.JPG") center 1px / cover no-repeat;
-  height: 60vw;
+    url("../img/hero-img.JPG") center 1px / cover no-repeat;
+  height: 1060px;
   width: 100vw;
   z-index: 1;
 }
