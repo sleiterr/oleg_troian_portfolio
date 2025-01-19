@@ -87,7 +87,6 @@
 
   object-fit: cover;
   object-position: center;
-  cursor: pointer;
 }
 
 /*? overlay */
@@ -99,7 +98,7 @@
   left: 0;
   right: 0;
 
-  height: 390px;
+  height: 90%;
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
