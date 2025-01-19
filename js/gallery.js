@@ -33,11 +33,13 @@ galleryImages.forEach((item, index) => {
 
   gallery.innerHTML += `
     <div class="gallery-item">
-     <img src="${item.src}" alt='${item.caption}' class='img'>
-     <a href='${item.url}' class="overlay" target='_blank'>
-     <p class='card-number'>${formattedIndex}</p>
-     <h3 class='card-title'>${item.title}</h3>
-     </a>
+     <div class='gallery-content'>
+      <img src="${item.src}" alt='${item.caption}' class='img'>
+      <a href='${item.url}' class="overlay" target='_blank'>
+       <p class='card-number'>${formattedIndex}</p>
+       <h3 class='card-title'>${item.title}</h3>
+      </a>
+     </div>
      <p class='img-caption'>${item.caption}</p>
     </div>
     `;
