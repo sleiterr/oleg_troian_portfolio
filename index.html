@@ -48,8 +48,16 @@
           <li class="nav-item">
             <a href="#about" class="nav-links hover">About</a>
           </li>
-          <li class="nav-item">
-            <a href="#services" class="nav-links hover">Services</a>
+          <li class="nav-item  dropdown">
+            <a href="#services" class="nav-links hover"
+              >Services<!-- services -->
+              <i class="fa-solid fa-chevron-down arrow"></i>
+            </a>
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <a href="./gallery.html" class="gallery-link hover" target="_blank">Gallery</a>
+              </li>
+            </ul>
             <!-- for Portfolio item maybe drop-box Services => Portfolio -->
           </li>
           <li class="nav-item">
@@ -377,6 +385,7 @@
         <div class="form-container container">
           <h3 class="form-title">Contact</h3>
           <div class="form-contact">
+            <!-- FORM -->
             <form action="#" class="form">
               <input type="text" name="Name" id="name-tx" placeholder="Name" />
               <input
@@ -394,6 +403,7 @@
               ></textarea>
               <input type="submit" value="Send" />
             </form>
+
             <div class="form-contant">
               <img src="./img/email-ping.png" alt="" class="form-ping" />
             </div>
@@ -401,7 +411,7 @@
         </div>
       </section>
     </main>
-    <button class="button" id="arrowTop" hidden >
+    <button class="button" id="arrowTop" hidden>
       <div class="button-box">
         <span class="button-elem">
           <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">

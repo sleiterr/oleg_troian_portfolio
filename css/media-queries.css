@@ -143,7 +143,7 @@
       url("../img/mobile-img.JPG") no-repeat;
     background-size: cover;
     background-position: 40% center;
-    height: 600px;
+    height: 680px;
     width: 425px;
     z-index: 1;
   }
@@ -165,10 +165,12 @@
   }
 
   .hero-subtitle {
-    font-size: 36px;
+    font-size: 28px;
     color: #fff;
     letter-spacing: 0.02em;
     line-height: 1.2em;
+
+    margin-top: 22px;
   }
 
   .hero-btn {
@@ -429,6 +431,10 @@
     top: 9px;
     left: 9px;
   }
+
+  /* #arrowTop[hidden] {
+    display: none;
+  } */
 
   /*******************************/
   /*! FOOTER */
