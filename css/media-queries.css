@@ -411,6 +411,26 @@
   }
 
   /*******************************/
+  /*? ARROW-BTTN */
+  /*******************************/
+
+  .button {
+    /* display: block; */
+    position: fixed;
+    bottom: 42px;
+    right: 26px;
+    width: 76px;
+    height: 76px;
+  }
+
+  .button-box {
+    display: flex;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+  }
+
+  /*******************************/
   /*! FOOTER */
   /*******************************/
 
@@ -462,5 +482,31 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 22px;
+  }
+
+  /*******************************/
+  /*! GALLERY-SECTION */
+  /*******************************/
+
+  .gallery-img {
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px;
+    padding: 60px 0;
+  }
+
+  .img-caption {
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #fff;
+    letter-spacing: 0.04em;
+    line-height: normal;
+    width: 360px;
+    margin-top: 26px;
   }
 }
