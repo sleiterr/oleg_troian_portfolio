@@ -32,6 +32,16 @@
     padding: 16px;
   }
 
+  .mob-gallery {
+    display: block;
+  }
+
+  /*? dropdown */
+
+  .dropdown {
+    display: none;
+  }
+
   .nav-links {
     font-size: 32px;
     font-weight: 600;
