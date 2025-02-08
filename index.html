@@ -48,6 +48,7 @@
           <li class="nav-item">
             <a href="#about" class="nav-links hover">About</a>
           </li>
+
           <li class="nav-item dropdown">
             <a href="#services" class="nav-links hover"
               >Services<!-- services -->
@@ -65,6 +66,7 @@
             </ul>
             <!-- for Portfolio item maybe drop-box Services => Portfolio -->
           </li>
+
           <li class="nav-item mob-gallery">
             <a href="./gallery.html" class="nav-links hover">Gallery</a>
           </li>
@@ -397,7 +399,14 @@
           <div class="form-contact">
             <!-- FORM -->
             <form action="#" class="form">
-              <input type="text" name="Name" id="name-tx" placeholder="Name" />
+              <input
+                type="text"
+                name="Name"
+                id="name-tx"
+                minlength="2"
+                maxlength="20"
+                placeholder="Name"
+              />
               <input
                 type="email"
                 name="Email"

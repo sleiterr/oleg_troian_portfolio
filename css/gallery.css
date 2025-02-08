@@ -5,11 +5,10 @@
   padding: 90px 0;
 }
 
+/*? BTTN */
+
 .home-container {
   margin-left: 60px;
-}
-
-.home-tittle {
   padding: 30px 0;
 }
 
@@ -22,14 +21,52 @@
   line-height: normal;
   letter-spacing: 3.24px;
   text-transform: uppercase;
+
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.251);
+  transition-duration: 400ms;
+  transition-property: color;
 }
+
+.home-link:focus,
+.home-link:hover {
+  color: #fff;
+}
+
+.home-link:focus:after,
+.home-link:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.home-link:after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  bottom: -3px;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+/*? GALLERY */
 
 .gallery-header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 
-  margin-right: 245px;
+  padding-bottom: 90px;
+  /* margin-right: 245px; */
 }
 
 .gallery-title {
@@ -61,7 +98,7 @@
   transform: rotate(180deg);
 }
 
-.gallery-img {
+.gallery-landing {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -137,6 +174,10 @@
   color: #fff;
   text-align: center;
 }
+
+.head {
+}
+
 .card-number {
   position: absolute;
 
@@ -147,4 +188,28 @@
   font-weight: 400;
   color: #cecece;
   letter-spacing: 5.4px;
+}
+
+/**=======================*/
+/*! JS-PROJECTS */
+/**=======================*/
+
+.js-gallery {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 60px;
+  padding: 90px 0;
+}
+
+.js-title {
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  font-size: 36px;
+
+  color: #fff;
+  line-height: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
