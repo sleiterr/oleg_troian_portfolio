@@ -60,7 +60,7 @@
                   href="./gallery.html"
                   class="gallery-link hover"
                   target="_blank"
-                  >Gallery</a
+                  >Portfolio</a
                 >
               </li>
             </ul>
@@ -68,7 +68,7 @@
           </li>
 
           <li class="nav-item mob-gallery">
-            <a href="./gallery.html" class="nav-links hover">Gallery</a>
+            <a href="./gallery.html" class="nav-links hover">Portfolio</a>
           </li>
           <li class="nav-item">
             <a href="#experienc" class="nav-links hover">Experience</a>
@@ -99,23 +99,25 @@
           </div>
 
           <div class="icons-box">
-            <ul class="icons-list">
-              <li class="iocns-item">
-                <a href="#" class="icon-link">
-                  <i class="icon-facebook"></i>
-                </a>
-              </li>
-              <li class="iocns-item">
-                <a href="#" class="icon-link">
-                  <i class="icon-telegram"></i>
-                </a>
-              </li>
-              <li class="iocns-item">
-                <a href="#" class="icon-link">
-                  <i class="icon-github"></i>
-                </a>
-              </li>
-            </ul>
+            <a href="#" class="git-link">
+              <i class="icon-github git"></i>
+              <p class="git-text">View GitHub</p>
+              <svg
+                class="git-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                ></path>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
@@ -399,6 +401,7 @@
           <div class="form-contact">
             <!-- FORM -->
             <form action="#" class="form">
+              <h4 class="input-title-email"></h4>
               <input
                 type="text"
                 name="Name"
@@ -407,11 +410,12 @@
                 maxlength="20"
                 placeholder="Name"
               />
+              <P class="mesg"></P>
               <input
                 type="email"
-                name="Email"
+                name="email"
                 id="email-txt"
-                placeholder="Email address"
+                placeholder="email address"
               />
               <textarea
                 name="message"
@@ -420,7 +424,7 @@
                 rows="10"
                 placeholder="Message"
               ></textarea>
-              <input type="submit" value="Send" />
+              <input type="submit" value="Send" id="form-submit" />
             </form>
 
             <div class="form-contant">
@@ -462,7 +466,7 @@
           </div>
           <div class="footer-icons">
             <ul class="footer-social">
-              <li class="footer-item">
+              <!-- <li class="footer-item">
                 <a href="#" class="footer-link">
                   <i class="icon-facebook icon-1"></i>
                 </a>
@@ -471,7 +475,7 @@
                 <a href="#" class="footer-link">
                   <i class="icon-telegram icon-2"></i>
                 </a>
-              </li>
+              </li> -->
               <li class="footer-item">
                 <a href="#" class="footer-link">
                   <i class="icon-github icon-3"></i>
@@ -508,7 +512,7 @@
             </li>
             <li class="footer-item">
               <a href="./gallery.html" class="footer-links" target="_blank"
-                >Gallery</a
+                >Portfolio</a
               >
             </li>
           </ul>
