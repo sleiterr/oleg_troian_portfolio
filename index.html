@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./svg/icons.css" />
 
     <!-- JS -->
-    <script src="./js/script.js" defer></script>
+    <script src="./js/script.js" type="module"></script>
     <script src="./js/scroll.js" defer></script>
 
     <!-- fontawesome-kits -->
@@ -399,34 +399,36 @@
         <div class="form-container container">
           <h3 class="form-title">Contact</h3>
           <div class="form-contact">
-            <!-- FORM -->
-            <form action="#" class="form">
-              <h4 class="input-title-email"></h4>
-              <input
-                type="text"
-                name="Name"
-                id="name-tx"
-                minlength="2"
-                maxlength="20"
-                placeholder="Name"
-              />
-              <P class="mesg"></P>
-              <input
-                type="email"
-                name="email"
-                id="email-txt"
-                placeholder="email address"
-              />
-              <textarea
-                name="message"
-                id="message-txt"
-                cols="30"
-                rows="10"
-                placeholder="Message"
-              ></textarea>
-              <input type="submit" value="Send" id="form-submit" />
-            </form>
 
+            <!-- FORM -->
+            <div class="form-box">
+              <h4 class="input-title-email"></h4>
+              <form action="#" class="form" id="form-data">
+                <input
+                  type="text"
+                  name="Name"
+                  id="name-tx"
+                  minlength="2"
+                  maxlength="20"
+                  placeholder="Name"
+                />
+                <p class="mesg"></p>
+                <input
+                  type="email"
+                  name="email"
+                  id="email-txt"
+                  placeholder="email address"
+                />
+                <textarea
+                  name="message"
+                  id="message-txt"
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+                <input type="submit" value="Send" id="form-submit" />
+              </form>
+            </div>
             <div class="form-contant">
               <img src="./img/email-ping.png" alt="" class="form-ping" />
             </div>
@@ -525,5 +527,13 @@
         Copyright <span class="c-footer">&copy;</span> 2024 Oleg
       </p>
     </footer>
+    <!--? MODAL-WINDOW -->
+
+    <div id="custom-alert" class="modal">
+      <div class="modal-content">
+        <button id="close-modal"><i class="icon-close"></i></button>
+        <p id="modal-message">All form fields must de filled in</p>
+      </div>
+    </div>
   </body>
 </html>
