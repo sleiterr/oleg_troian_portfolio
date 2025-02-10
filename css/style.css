@@ -551,10 +551,7 @@ header {
 }
 
 .border {
-  /* background-color: #fff; */
   padding: 45px 60px;
-  border-radius: 8px;
-  width: 100%;
 }
 
 .about-subtitle {
