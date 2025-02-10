@@ -56,7 +56,7 @@ function showAlert(message) {
 
   window.onclick = function (e) {
     if (e.target === modal) {
-      modal.style.displa = "none";
+      modal.style.display = "none";
     }
   };
 }

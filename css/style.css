@@ -1203,9 +1203,8 @@ input[type="submit"]:hover {
   font-weight: 400;
   font-size: 46px;
 
-  color: #444;
-  /* text-align: center; */
-  line-height: normal;
+  color: rgb(35, 64, 143);
+  letter-spacing: 0.04em;
 
   display: none;
 }
@@ -1239,17 +1238,68 @@ input[type="submit"]:hover {
   align-items: center;
 }
 
+.alert-close {
+  position: absolute;
+  font-size: 24px;
+  top: 8%;
+  left: 46%;
+  width: 100%;
+}
+
+#close-modal {
+}
+
 .modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
   background: #fff;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
+
+  padding: 0 30px;
+  width: 600px;
+  height: 150px;
+  border-bottom: 15px solid #fb4242;
+}
+
+.modal-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 40px; */
+
+  width: 93%;
+}
+
+.info-mark {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+  padding: 8px 10px;
+  background-color: rgba(251, 66, 66, 1);
+  border-radius: 50%;
 }
 
 #modal-message {
+  position: relative;
+  font-weight: 400;
+  font-size: 26px;
+
+  color: #333;
 }
 
-#close-modal {
+#modal-message::before {
+  content: "";
+  position: absolute;
+  top: -26px;
+  left: -26px;
+  background-color: rgba(51, 51, 51, 0.60);
+  width: 2px;
+  height: 80px;
 }
 
 /*******************************/
