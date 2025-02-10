@@ -60,6 +60,15 @@ button {
   font-size: inherit;
   color: inherit;
 }
+@font-face {
+  font-family: "MyFont";
+  src: url("fonts/MyFont.woff2") format("woff2"),
+    url("fonts/MyFont.woff") format("woff"),
+    url("fonts/MyFont.ttf") format("truetype"),
+    url("fonts/MyFont.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 .container {
   width: min(95%, 1336px);
@@ -730,11 +739,8 @@ header {
 /*! EXPERIENCE-SECTION */
 /*******************************/
 
-.experience-section {
-  padding: 120px;
-}
-
 .experience-container {
+  padding: 120px 0;
 }
 
 .experience-title {
@@ -1246,7 +1252,7 @@ input[type="submit"]:hover {
 }
 
 .alert-close:hover {
-  color: rgb(51, 51, 51, 0.80);
+  color: rgb(51, 51, 51, 0.8);
   transition: 250ms ease;
 }
 

@@ -86,8 +86,6 @@
     top: 0;
     height: 100%;
     width: 100%;
-    height: 100%;
-    width: 100%;
     padding-left: 16px;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(8px);
@@ -705,5 +703,223 @@
     text-align: center;
     line-height: normal;
     letter-spacing: 0.06em;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) and (hover: none) and (pointer: coarse) {
+
+  
+
+  .logo {
+    width: 130px;
+    height: 62px;
+  }
+
+  .nav-logo {
+    position: relative;
+    padding: 16px 0;
+    flex-shrink: 0;
+  }
+
+  /*? ==== BURGER-MENU ====*/
+
+  .nav-list.show {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-item {
+    /* width: 100%; */
+    padding: 16px;
+  }
+
+  .mob-gallery {
+    display: block;
+  }
+
+  /*? dropdown */
+
+  .dropdown {
+    display: none;
+  }
+
+  .nav-links {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .burger-btn {
+    position: absolute;
+    right: 18px;
+    top: 20px;
+    width: 40px;
+    height: 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    z-index: 999;
+    /* outline: 1px solid red; */
+  }
+
+  .nav-bar {
+    height: 65px;
+  }
+
+  .bar {
+    height: 4px;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.9);
+    transition: 0.3s ease;
+    border-radius: 10px;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 60%;
+    padding-left: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+
+    transform: translateX(100%);
+    transition: all 0.4s ease-in;
+    visibility: hidden;
+    opacity: 0;
+
+    z-index: 666;
+    gap: 22px;
+  }
+
+  .show,
+  .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .bar:nth-child(1).active {
+    transform: rotate(45deg) translate(9px, 9px);
+  }
+  .bar:nth-child(2).active {
+    display: none;
+  }
+  .bar:nth-child(3).active {
+    transform: rotate(-45deg) translate(8px, -8px);
+  }
+
+  /*? STICKY NAVIGATION */
+
+  .sticky .header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 69px;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 666;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.4);
+  }
+
+  .sticky .bar {
+    background-color: rgb(0, 155, 233);
+  }
+
+  .sticky .nav-links {
+    color: #fff;
+  }
+  /**=====================*/
+  /*! HERO-SECTION */
+  /**=====================*/
+
+  .hero-title {
+    font-family: "Source Code Pro", serif;
+    font-weight: 700;
+    font-size: clamp(32px, 5vw 52px);
+    /* font-size: 62px; */
+
+    color: #fff;
+    /* line-height: 1.2; */
+  }
+
+  .hero-subtitle {
+    font-size: clamp(26px, 5vw, 28px);
+
+    margin-top: 22px;
+  }
+
+  .hero-btn {
+    padding: 18px 46px;
+    margin-top: 48px;
+  }
+
+  .icons-box {
+    position: absolute;
+    right: 50px;
+    bottom: 56px;
+  }
+
+  /*******************************/
+  /*! ABOUT-SECTION */
+  /*******************************/
+
+  .about-container {
+    padding: 90px 0;
+  }
+
+  .about-feature {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 50px;
+
+    width: 100%;
+  }
+
+  .img-container {
+    object-fit: cover;
+    object-position: center;
+
+    width: 100%;
+  }
+
+  .about-title {
+    font-size: clamp(52px, 5vw, 62px);
+    letter-spacing: 0.04em;
+    margin-bottom: 45px;
+  }
+
+  .about-subtitle {
+    font-weight: 400;
+    font-size: clamp(16px, 4vw, 18px);
+    letter-spacing: 0.08em;
+    line-height: 1.4em;
+  }
+
+  .about-development {
+    font-weight: 400;
+    font-size: clamp(16px, 4vw, 18px);
+    letter-spacing: 0.08em;
+    line-height: 1.4em;
+
+    margin-top: 12px;
+  }
+
+  .border {
+    padding: 0 10px;
   }
 }
