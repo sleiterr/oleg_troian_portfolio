@@ -749,6 +749,8 @@
   }
 }
 
+/**!=================================================*/
+
 @media (min-width: 426px) and (max-width: 767px) and (hover: none) and (pointer: coarse) {
   .logo {
     width: 120px;
@@ -1354,4 +1356,10 @@
     line-height: normal;
     letter-spacing: 0.06em;
   }
+}
+
+/**!=================================================*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
 }
