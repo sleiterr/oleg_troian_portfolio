@@ -134,6 +134,9 @@
   width: 100%;
   height: auto;
 
+  max-width: 500px; /* Не більше, ніж оригінальна ширина */
+  max-height: 850px; /* Не більше, ніж оригінальна висота */
+
   object-fit: cover;
   object-position: center;
 

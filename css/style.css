@@ -1407,8 +1407,8 @@ input[type="submit"]:hover {
   gap: 12px;
 }
 
-.logo-container {
-  margin-bottom: 8px;
+.footer-logo-box {
+  margin-bottom: 15px;
 }
 
 .footer-logo {
