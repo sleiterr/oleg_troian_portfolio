@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px) and (hover: none) and (pointer: coarse) {
+@media screen and (max-width: 426px) and (hover: none) and (pointer: coarse) {
   /*******************************/
   /*! NAV-BAR */
   /*******************************/
@@ -409,7 +409,7 @@
   /*! CONTACT-FORM-SECTION */
   /*******************************/
 
-  .form-container {
+  /* .form-container {
     padding: 60px 0;
   }
 
@@ -465,11 +465,11 @@
 
   .form-contant::before {
     display: none;
-  }
+  } */
 
   /*? MESG-TITLE STYLE */
 
-  .input-title-email {
+  /* .input-title-email {
     font-weight: 500;
     font-size: 34px;
     letter-spacing: 0.04em;
@@ -477,11 +477,11 @@
 
   .mesg {
     letter-spacing: 0.04em;
-  }
+  } */
 
   /*? MODAL-WINDOW */
 
-  .modal-content {
+  /* .modal-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -529,7 +529,7 @@
 
   #modal-message::before {
     display: none;
-  }
+  } */
 
   /*******************************/
   /*? ARROW-BTTN */
@@ -607,73 +607,7 @@
     justify-content: center;
     margin-bottom: 22px;
   }
-
-  /**===========================*/
-  /*! GALLERY-SECTION */
-  /**===========================*/
-
-  .gallery-img {
-    display: flex;
-
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-    gap: 40px;
-    padding: 60px 0;
-  }
-
-  .img-caption {
-    font-weight: 400;
-    font-size: 18px;
-
-    color: #fff;
-    letter-spacing: 0.04em;
-    line-height: normal;
-    width: 360px;
-    margin-top: 26px;
-  }
-
-  /*******************************/
-  /*! FOOTER */
-  /*******************************/
-
-  .footer-logo-box {
-    margin-bottom: 18px;
-  }
-
-  .footer-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 40px;
-    margin-bottom: 56px;
-  }
-
-  .content-footer {
-    gap: 0;
-  }
-
-  .title-menu {
-    font-size: 22px;
-    letter-spacing: 0.06em;
-    margin-bottom: 22px;
-  }
-
-  .footer-link {
-    font-size: 52px;
-  }
-
-  .footer-links {
-    font-size: 16px;
-    letter-spacing: 0.06em;
-  }
-
-  .footer-logo {
-    width: 150px;
-    height: auto;
-  }
-
+   
   /*******************************/
   /*! GALLERY */
   /*******************************/
@@ -714,6 +648,17 @@
     padding: 50px 0;
   }
 
+  .gallery-img {
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px;
+    padding: 60px 0;
+  }
+
   .img-caption {
     font-size: 18px;
 
@@ -751,7 +696,7 @@
 
 /**!=================================================*/
 
-@media (min-width: 426px) and (max-width: 767px) and (hover: none) and (pointer: coarse) {
+@media (min-width: 426px) and (max-width: 768px) and (hover: none) and (pointer: coarse) {
   .logo {
     width: 120px;
     height: auto;
@@ -1152,7 +1097,7 @@
   /*! CONTACT-FORM-SECTION */
   /*******************************/
 
-  .form-container {
+  /* .form-container {
     padding: 60px 0;
   }
 
@@ -1170,10 +1115,6 @@
     padding: 0;
     width: 100%;
   }
-
-  /* .form-box {
-    width: 100%;
-  } */
 
   .form {
     display: flex;
@@ -1209,11 +1150,11 @@
 
   .form-contant::before {
     display: none;
-  }
+  } */
 
   /*? MESG-TITLE STYLE */
 
-  .input-title-email {
+  /* .input-title-email {
     font-weight: 500;
     font-size: 34px;
     letter-spacing: 0.04em;
@@ -1221,11 +1162,11 @@
 
   .mesg {
     letter-spacing: 0.04em;
-  }
+  } */
 
   /*? MODAL-WINDOW */
 
-  .modal-content {
+  /* .modal-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1273,7 +1214,7 @@
 
   #modal-message::before {
     display: none;
-  }
+  } */
 
   /*******************************/
   /*! FOOTER */
@@ -1780,7 +1721,7 @@
   /*! CONTACT-FORM-SECTION */
   /*******************************/
 
-  .form-container {
+  /* .form-container {
     padding: 60px 0;
   }
 
@@ -1834,11 +1775,11 @@
 
   .form-contant::before {
     display: none;
-  }
+  } */
 
   /*? MESG-TITLE STYLE */
 
-  .input-title-email {
+  /* .input-title-email {
     font-weight: 500;
     font-size: 34px;
     letter-spacing: 0.04em;
@@ -1846,7 +1787,7 @@
 
   .mesg {
     letter-spacing: 0.04em;
-  }
+  } */
 
   /*? MODAL-WINDOW */
 
