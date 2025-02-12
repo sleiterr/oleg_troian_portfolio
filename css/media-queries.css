@@ -1850,8 +1850,6 @@
 
   /*? MODAL-WINDOW */
 
-
-
   /*******************************/
   /*! FOOTER */
   /*******************************/
@@ -1898,13 +1896,14 @@
 
   .home-container {
     margin-left: 30px;
+
     padding: 36px 0;
   }
 
   .gallery-header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 
     padding-bottom: 80px;
   }
@@ -1916,15 +1915,17 @@
 
   .gallery-subtitle {
     font-size: clamp(28px, 5vw, 32px);
+
+    text-align: center;
   }
 
   .gallery-landing {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
-    gap: 80px;
+    gap: 60px;
     padding: 50px 0;
   }
 
@@ -1936,24 +1937,29 @@
   }
 
   .img {
-    max-width: 90vw;
+    width: 420px;
     height: auto;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 14px;
   }
 
   /*? GALLERY-section 2 */
 
   .js-gallery {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
-    gap: 80px;
+    gap: 60px;
     padding-top: 50px;
   }
 
   .js-title {
-    font-size: 32px;
+    font-size: clamp(28px, 5vw, 32px);
 
     color: #fff;
     text-align: center;
