@@ -1,4 +1,4 @@
-import { handleFormSubmit } from "./form-submit.js";
+// import { handleFormSubmit } from "./form-submit.js";
 
 // BURGER-BTTN
 
@@ -109,4 +109,4 @@ window.onclick = function (event) {
   }
 };
 
-handleFormSubmit()
+// handleFormSubmit()

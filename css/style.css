@@ -558,16 +558,16 @@ header {
 .about-title {
   font-family: "Source Code Pro", serif;
   font-weight: 600;
-  font-size: 72px;
+  font-size: 64px;
   color: #cecece;
   letter-spacing: 0.2rem;
 
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 35px;
 }
 
 .border {
-  padding: 45px 60px;
+  padding: 0 15px;
 }
 
 .about-subtitle {
@@ -626,16 +626,16 @@ header {
 
 .services-subtitle {
   font-weight: 500;
-  font-size: 42px;
+  font-size: 32px;
 
   color: #1ed1a8;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.2rem;
 }
 
 .services-title {
   font-family: "Source Code Pro", serif;
   font-weight: 600;
-  font-size: 72px;
+  font-size: 64px;
 
   color: #cecece;
   letter-spacing: 0.06rem;
@@ -648,8 +648,9 @@ header {
   font-size: 18px;
 
   color: #cecece;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   line-height: 1.6em;
+  max-width: 800px;
 }
 
 /*? FEATURES-BOX  */
@@ -659,7 +660,7 @@ header {
   align-items: center;
   justify-content: center;
 
-  transform: translateY(25px);
+  transform: translateY(30px);
   width: 100%;
 }
 
@@ -965,10 +966,10 @@ header {
 .skills-title {
   font-family: "Source Code Pro", serif;
   font-weight: 500;
-  font-size: 52px;
+  font-size: 62px;
 
   color: #cecece;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06rem;
 
   margin-bottom: 80px;
 }
@@ -985,10 +986,9 @@ header {
 
 .skills-items {
   background-color: rgb(255, 255, 255, 0.1);
-  padding: 32px;
+  padding: 55px;
   border-radius: 8px;
-  margin-top: 45px;
-  max-width: 650px;
+  /* margin-top: 45px; */
 }
 
 .skills-list {
@@ -1003,7 +1003,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 14px;
 }
 
@@ -1016,13 +1016,14 @@ header {
   font-size: 16px;
   color: #cecece;
   letter-spacing: 0.4px;
+  text-align: center;
 }
 
 /*? SKILLS CONTENT */
 
 .skills-content {
-  align-self: flex-end;
-  max-width: 520px;
+  align-self: center;
+  max-width: 620px;
 }
 
 .content-title {
@@ -1030,13 +1031,14 @@ header {
   font-weight: 500;
   font-size: 36px;
   color: #cecece;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.2rem;
+
   margin-bottom: 22px;
 }
 
 .skills-subtitle {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   color: #cecece;
   letter-spacing: 0.08em;
   line-height: 1.6em;
@@ -1401,19 +1403,30 @@ input[type="submit"]:hover {
 /*******************************/
 
 .footer {
-  padding: 50px;
+  padding: 60px 0;
+
   background-color: #262626;
   border-top: 2px solid #afafaf;
-  width: 100vw;
-  height: 100%;
 }
 
 .footer-container {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
+  gap: 120px;
+
+  /* width: 100%; */
+  padding-left: 90px;
+  margin-bottom: 60px;
+}
+
+.menu-footer {
+  display: flex;
+  align-items: flex-start;
   justify-content: center;
-  gap: 80px;
-  margin-bottom: 62px;
+  gap: 160px;
+
+  width: 65%;
 }
 
 .content-footer {
@@ -1487,14 +1500,17 @@ input[type="submit"]:hover {
   font-family: "Montserrat", system-ui;
   font-weight: 400;
   font-size: 26px;
+
   color: #fff;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
+
   margin-bottom: 22px;
 }
 
 .footer-links {
   font-family: "Roboto", system-ui;
   font-weight: 400;
+
   font-size: 18px;
   letter-spacing: 0.04em;
 
