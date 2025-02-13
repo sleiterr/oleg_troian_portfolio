@@ -44,14 +44,14 @@ let galleryImages = [
   },
   {
     src: "../img/card-img/chose-your-style.jpg",
-    title: "chose your style",
+    title: "Chose your style",
     caption: "Style Product.",
     category: "js-project",
     url: "#",
   },
   {
     src: "../img/card-img/sweet-ice-cream.jpg",
-    title: "Іweet ice cream",
+    title: "Sweet ice cream",
     caption:
       "Discover a world of refined flavors with our exquisite ice selection.",
     category: "js-project",
