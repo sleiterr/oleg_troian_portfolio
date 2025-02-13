@@ -123,6 +123,8 @@ header {
   flex-shrink: 0;
 }
 
+
+
 .nav-logo::before {
   content: "";
   position: absolute;
@@ -141,9 +143,10 @@ header {
 
 .nav-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 42px;
+  gap: 30px;
 }
 
 .nav-item {
@@ -159,7 +162,7 @@ header {
 
   font-family: "Source Code Pro", serif;
   font-weight: 600;
-  font-size: 26px;
+  font-size: clamp(18px, 2.5vw, 26px);
   color: #fff;
   letter-spacing: 0.1rem;
 }
