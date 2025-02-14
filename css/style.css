@@ -315,7 +315,7 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),
-    url("../img/hero-img.JPG") center 1px / cover no-repeat;
+    url("../img/hero-img/hero-img.JPG") center 1px / cover no-repeat;
   height: 920px;
   width: 100vw;
   z-index: 1;

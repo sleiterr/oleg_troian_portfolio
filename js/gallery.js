@@ -3,21 +3,21 @@ const jsprojectSection = document.querySelector(".js-gallery");
 
 let galleryImages = [
   {
-    src: "../img/card-img/card-1.jpg",
+    src: "./img/card-img/card-1.jpg",
     title: "Le gout infini",
     caption: "Osteria Francescana in Modena.",
     category: "landing",
     url: "https://sleiterr.github.io/md-11-html-Le-go-t-infini/",
   },
   {
-    src: "../img/card-img/card-2.jpg",
+    src: "./img/card-img/card-2.jpg",
     title: "Bjarke Ingels",
     caption: "The cultural mediator.",
     category: "landing",
     url: "https://sleiterr.github.io/md-bjarke-ingels/",
   },
   {
-    src: "../img/card-img/card-3.jpg",
+    src: "./img/card-img/card-3.jpg",
     title: "Italian Cuisine",
     caption:
       "Italian cuisine is more than just food; it's art, tradition, and love.",
@@ -25,7 +25,7 @@ let galleryImages = [
     url: "https://sleiterr.github.io/delizi-oso/",
   },
   {
-    src: "../img/card-img/сhildrens-toys.jpg",
+    src: "./img/card-img/сhildrens-toys.jpg",
     title: "To play is to live",
     caption:
       "Here at our store we have a large selection of high quality toys.",
@@ -36,21 +36,21 @@ let galleryImages = [
   /* JS-PROJECTS */
 
   {
-    src: "../img/card-img/card-4.jpg",
+    src: "./img/card-img/card-4.jpg",
     title: "Halloween",
     caption: "Cutest Pumpkin",
     category: "js-project",
     url: "https://sleiterr.github.io/md-04-js-hallowin/",
   },
   {
-    src: "../img/card-img/chose-your-style.jpg",
+    src: "./img/card-img/chose-your-style.jpg",
     title: "Chose your style",
     caption: "Style Product.",
     category: "js-project",
     url: "https://sleiterr.github.io/js-task-06-slider/",
   },
   {
-    src: "../img/card-img/sweet-ice-cream.jpg",
+    src: "./img/card-img/sweet-ice-cream.jpg",
     title: "Sweet ice cream",
     caption:
       "Discover a world of refined flavors with our exquisite ice selection.",
@@ -58,7 +58,7 @@ let galleryImages = [
     url: "https://sleiterr.github.io/md-04-js-json-ice-cream/",
   },
   {
-    src: "../img/card-img/to-do-list.jpg",
+    src: "./img/card-img/to-do-list.jpg",
     title: "To do List",
     caption: "Time for big things.",
     category: "js-project",

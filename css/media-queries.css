@@ -154,7 +154,7 @@
     justify-content: space-between;
     margin: 0 auto;
     background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),
-      url("../img/mobile-img.JPG") no-repeat;
+      url("../img/hero-img/mobile-img.JPG") no-repeat;
     background-size: cover;
     background-position: 40% center;
     height: 680px;
