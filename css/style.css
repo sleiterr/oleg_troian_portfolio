@@ -1067,7 +1067,7 @@ header {
 /*! CONTACT-FORM-SECTION */
 /*******************************/
 
-.form-container {
+/* .form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1101,14 +1101,13 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  /* object-fit: cover; */
   background-color: #fff;
   padding: 50px 42px;
   border-radius: 8px;
   border: 2px solid #75cabe;
   width: 80%;
   height: 550px;
-}
+} */
 
 /* .form-box {
   display: flex;
@@ -1116,7 +1115,7 @@ header {
   align-items: center;
 } */
 
-.form-title {
+/* .form-title {
   font-family: "Source Code Pro", serif;
   font-weight: 500;
   font-size: 52px;
@@ -1125,11 +1124,11 @@ header {
   text-align: center;
 
   margin-bottom: 80px;
-}
+} */
 
 /*? FORM */
 
-.form {
+/* .form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1216,11 +1215,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background: rgb(35, 64, 143, 0.9);
   transition: ease 250ms;
-}
+} */
 
 /*? MESG-TITLE STYLE */
 
-.input-title-email {
+/* .input-title-email {
   font-weight: 400;
   font-size: 46px;
 
@@ -1239,15 +1238,14 @@ input[type="submit"]:hover {
   font-size: 18px;
   letter-spacing: 0.06em;
 
-  /* color: #333; */
   color: tomato;
   width: 95%;
   height: 32px;
-}
+} */
 
 /*? MODAL-WINDOW */
 
-.modal {
+/* .modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -1327,7 +1325,7 @@ input[type="submit"]:hover {
   background-color: rgba(51, 51, 51, 0.6);
   width: 2px;
   height: 80px;
-}
+} */
 
 /*******************************/
 /*? ARROW-BTTN */
