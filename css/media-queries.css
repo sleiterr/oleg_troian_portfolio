@@ -250,10 +250,13 @@
     width: 100%;
   }
 
-
   .about-title {
     font-size: 52px;
     letter-spacing: 0.04em;
+  }
+
+  .about-title::after {
+    display: none;
   }
 
   .about-subtitle {
@@ -1594,6 +1597,10 @@
     margin-bottom: 50px;
   }
 
+  .about-title::after {
+    display: none;
+  }
+
   .about-subtitle {
     font-size: clamp(16px, 4vw, 18px);
   }
@@ -2034,6 +2041,10 @@
     width: 100%;
   }
 
+  .about-title::after {
+    display: none;
+  }
+
   .img-container {
     display: flex;
     align-items: center;
@@ -2097,5 +2108,4 @@
   .nav-list {
     gap: 32px;
   }
-  
 }
