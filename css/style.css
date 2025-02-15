@@ -342,7 +342,7 @@ header {
   justify-content: center;
   /* min-width: 560px; */
 
-  padding: 40px 28px;
+  padding: 35px 60px;
   background-color: rgb(255, 255, 255, 0.2);
   border-radius: 14px;
 
@@ -368,7 +368,19 @@ header {
   letter-spacing: 0.1rem;
   text-indent: 120px;
 
-  margin-top: 22px;
+  margin-top: 24px;
+}
+
+.hero-context {
+  font-size: 18px;
+  font-weight: 300;
+
+  color: #fff;
+  letter-spacing: 0.06em;
+  line-height: 1.6em;
+  width: 518px;
+
+  margin-top: 20px;
 }
 
 .hero-subtitle::before {
@@ -391,7 +403,7 @@ header {
 
   appearance: none;
   padding: 22px 72px;
-  margin-top: 60px;
+  margin-top: 50px;
 
   display: inline-block;
   outline: none;
@@ -578,10 +590,10 @@ header {
   content: "";
   position: absolute;
   right: 0;
-  top: 55%;
+  top: 50%;
   transform: translateY(-50%);
   width: 4px;
-  height: 90%;
+  height: 80%;
   background-color: rgba(255, 255, 255, 0.2);
 }
 
