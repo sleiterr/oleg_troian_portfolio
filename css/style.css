@@ -49,8 +49,8 @@ body {
   height: 100%;
   line-height: 1;
   overflow-x: hidden;
-  background: linear-gradient(to right, #485563, #29323c);
-  /* background: linear-gradient(to right, #232526, #414345); */
+  background: linear-gradient(to right, #4a5568, #08121d);
+  /* background: linear-gradient(to right, #485563, #29323c); */
 }
 
 button {
@@ -312,12 +312,13 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),
-    url("../img/hero-img/hero-img.JPG") center 1px / cover no-repeat;
-    /* background: radial-gradient(140.8% 63.89% at 63.89% 52.42%, #7E93A9 0%, #08121D 100%); */
-  height: 920px;
+  background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.1)),
+    url("../img/hero-img/copy.jpg") center / cover no-repeat;
+  /* background: radial-gradient(140.8% 63.89% at 63.89% 52.42%, #7E93A9 0%, #08121D 100%); */
+  height: 980px;
   width: 100vw;
   z-index: 1;
+  overflow: visible;
 }
 
 .hero-conteiner {
@@ -329,15 +330,23 @@ header {
   width: 100%;
 }
 
+.hero-box {
+}
+
 .hero-content {
   position: absolute;
+  bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  min-width: 560px;
+  /* min-width: 560px; */
 
-  margin-left: 42px;
+  padding: 40px 28px;
+  background-color: rgb(255, 255, 255, 0.2);
+  border-radius: 14px;
+
+  margin-left: 40px;
 }
 
 .hero-title {
@@ -377,11 +386,11 @@ header {
 .hero-btn {
   font-weight: 500;
   font-size: 22px;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   color: #fff;
 
   appearance: none;
-  padding: 22px 52px;
+  padding: 22px 72px;
   margin-top: 60px;
 
   display: inline-block;
@@ -505,7 +514,21 @@ header {
 /*******************************/
 
 .about-section {
+  /* position: relative;
+  padding-top: 80px; */
 }
+
+/* .about-section::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to top, transparent, #4a5568 0%, rgba(8, 18, 29, 0) 100%);
+  pointer-events: none;
+  z-index: 2;
+} */
 
 .about-container {
   display: flex;
@@ -517,35 +540,33 @@ header {
 
 .about-feature {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 0.8fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-column-gap: 90px;
+  grid-column-gap: 60px;
   grid-row-gap: 0px;
 
   width: 100%;
 }
 
-.img-container {
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.about-img {
-  border-radius: 12px;
-  border: 18px solid rgb(255, 255, 255, 0.1);
-}
-
 .about-content {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* .border {
+  padding: 0 15px;
+} */
+
+.about-title {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-.about-title {
   font-family: "Source Code Pro", serif;
   font-weight: 600;
-  font-size: 64px;
+  font-size: 56px;
   color: #cecece;
   letter-spacing: 0.2rem;
 
@@ -553,15 +574,22 @@ header {
   margin-bottom: 35px;
 }
 
-.border {
-  padding: 0 15px;
+.about-title::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .about-subtitle {
   font-weight: 400;
   font-size: clamp(18px, 3.5vw, 22px);
+
   color: #cecece;
-  /* color: #333; */
   letter-spacing: 0.06em;
   line-height: 1.4em;
   text-align: start;
@@ -570,12 +598,10 @@ header {
 .about-development {
   font-weight: 400;
   font-size: clamp(18px, 3.5vw, 22px);
-  /* color: #333; */
+
   color: #cecece;
   letter-spacing: 0.06em;
   line-height: 1.4em;
-  margin-top: 26px;
-  text-align: start;
 }
 
 /*? MODAL */
@@ -1013,7 +1039,7 @@ header {
 }
 
 .react {
-  color: #61DBFB;
+  color: #61dbfb;
 }
 
 .figma {
@@ -1021,7 +1047,7 @@ header {
 }
 
 .photo {
-  color: #4FCCFE;
+  color: #4fccfe;
 }
 
 .list-title {
@@ -1474,7 +1500,7 @@ input[type="submit"]:hover {
   border-radius: 50%;
 }
 
-.footer-link:hover i{
+.footer-link:hover i {
   color: #1ed1a8;
   transition: 250ms ease-in;
 }
