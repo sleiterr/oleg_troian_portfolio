@@ -1539,27 +1539,47 @@
   .hero-content {
     position: absolute;
     display: flex;
+    bottom: 25%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    min-width: 320px;
+    width: 410px;
+
+    background-color: transparent;
+    padding: 0px 0px;
     margin-left: 5px;
   }
 
   .hero-title {
-    font-size: 52px;
+    font-size: clamp(46px, 4vw, 52px);
     letter-spacing: 0.04em;
     line-height: 1.2em;
   }
 
   .hero-subtitle {
-    font-size: 26px;
+    font-size: clamp(22px, 3.5vw, 26px);
     color: #fff;
     letter-spacing: 0.04em;
-    line-height: 1.2em;
+    line-height: 1.2;
 
     text-indent: 0px;
     margin-top: 16px;
+  }
+
+  .hero-context {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: clamp(16px, 2vw, 18px);
+    font-weight: 300;
+
+    color: #fff;
+    letter-spacing: 0.06em;
+    line-height: 1.6;
+    max-width: 90%;
+
+    margin-top: 20px;
   }
 
   .hero-subtitle::before {
@@ -1568,11 +1588,16 @@
 
   .hero-btn {
     /* display: none; */
-    font-size: clamp(18px, 4vw, 22px);
+    font-size: 22px;
     letter-spacing: 0.04em;
 
-    padding: 16px 32px;
+    gap: 8px;
+    padding: 16px 40px;
     margin-top: 40px;
+  }
+
+  .hero-btn i {
+    font-size: 24px;
   }
 
   /*? ICONS-BOX */
@@ -1661,6 +1686,7 @@
 
   .services-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
