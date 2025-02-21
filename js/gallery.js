@@ -36,6 +36,22 @@ let galleryImages = [
   /* JS-PROJECTS */
 
   {
+    src: "../img/card-img/products-search-bar.jpg",
+    title: "Search Bar",
+    caption:
+      "An interactive product search bar based on JSON data for dynamic filtering.",
+    category: "js-project",
+    url: "https://sleiterr.github.io/md-js-01-favorites.json/",
+  },
+  {
+    src: "./img/card-img/sweet-ice-cream.jpg",
+    title: "Sweet ice cream",
+    caption:
+      "Discover a world of refined flavors with our exquisite ice selection.",
+    category: "js-project",
+    url: "https://sleiterr.github.io/md-04-js-json-ice-cream/",
+  },
+  {
     src: "./img/card-img/card-4.jpg",
     title: "Halloween",
     caption: "Cutest Pumpkin",
@@ -48,21 +64,6 @@ let galleryImages = [
     caption: "Style Product.",
     category: "js-project",
     url: "https://sleiterr.github.io/js-task-06-slider/",
-  },
-  {
-    src: "./img/card-img/sweet-ice-cream.jpg",
-    title: "Sweet ice cream",
-    caption:
-      "Discover a world of refined flavors with our exquisite ice selection.",
-    category: "js-project",
-    url: "https://sleiterr.github.io/md-04-js-json-ice-cream/",
-  },
-  {
-    src: "./img/card-img/to-do-list.jpg",
-    title: "To do List",
-    caption: "Time for big things.",
-    category: "js-project",
-    url: "https://sleiterr.github.io/md-01-js-checklist/",
   },
 ];
 
