@@ -1247,21 +1247,31 @@ header {
   align-items: center;
   justify-content: flex-start;
 
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .footer-item {
+  position: relative;
 }
 
 .footer-link {
+  position: relative;
+
   display: flex;
   align-items: center;
   justify-content: center;
-
-  font-size: 46px;
-  /* padding: 12px; */
+  width: 41px;
+  height: 41px;
   border-radius: 50%;
   transition: 0.5s ease;
+}
+
+.footer-item:nth-child(2) .footer-link {
+  border-radius: 0%;
+}
+
+.footer-item:nth-child(3) .footer-link {
+  border-radius: 0%;
 }
 
 /* .footer-link:hover i {
@@ -1271,6 +1281,7 @@ header {
 
 } */
 .footer-link i {
+  font-size: 46px;
   color: #fff;
 }
 
@@ -1291,6 +1302,12 @@ header {
 .footer-item .footer-link:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 20px #22c3df;
+}
+
+/* Специфічно для останніх двох елементів */
+.footer-item:nth-child(2) .footer-link::before,
+.footer-item:nth-child(3) .footer-link::before {
+  border-radius: 0%;
 }
 
 .footer-item .footer-link:hover {
