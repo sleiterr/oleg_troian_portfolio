@@ -129,16 +129,40 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+
   gap: 30px;
+
+  /* width: 100%; */
+}
+
+/*! LANGUAGE-SELECT */
+
+/* #language {
+  color: #fff;
+  width: 268px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 5px;
+  height: 34px;
+  background-color: transparent;
+  background-position-x: 244px;
+}
+
+.lang-value {
+  background-color: transparent;
+  color: #000; /
+} */
+
+/* Якщо хочеш додати інші стилі, наприклад, при наведенні */
+.lang-value:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Трохи затемнити при наведенні */
 }
 
 .nav-item {
-  /* position: relative; */
 }
 
-/* .mob-gallery {
-  display: none;
-} */
 
 .nav-links {
   /* display: block; */
