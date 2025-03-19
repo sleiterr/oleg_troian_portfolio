@@ -1358,11 +1358,11 @@ header {
 
 .title-menu {
   font-family: "Montserrat", system-ui;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 26px;
 
   color: #fff;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
 
   margin-bottom: 22px;
 }
@@ -1372,14 +1372,14 @@ header {
   font-weight: 400;
 
   font-size: 18px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
 
   color: #fff;
 }
 
 .footer-links:hover,
 .footer-links:active {
-  color: #d3d3d3;
+  color: #22c3df;
   transition: 250ms ease;
 }
 
